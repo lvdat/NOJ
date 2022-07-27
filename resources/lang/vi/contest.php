@@ -1,0 +1,152 @@
+<?php
+
+return [
+    'empty'                 => 'Nothing here.',
+    'featured' => [
+        'title'             => 'Featured Contest',
+        'action'            => 'Know More',
+        'empty'             => 'Nothing here.',
+    ],
+    'filter' => [
+        'title'             => 'Filter',
+        'icpc'              => 'ICPC',
+        'ioi'               => 'IOI',
+        'public'            => 'Public',
+        'private'           => 'Private',
+        'verified'          => 'Verified',
+        'practice'          => 'Practice',
+        'rated'             => 'Rated',
+        'anticheated'       => 'Anticheated',
+    ],
+    'badge' => [
+        'desktop'           => 'NOJ Desktop',
+        'audit'             => 'This contest is under review',
+        'private'           => 'This is a private contest',
+        'verified'          => 'This is a verified contest',
+        'practice'          => 'This is a contest for praticing',
+        'rated'             => 'This is a rated contest',
+        'anticheated'       => 'Anti-cheat enabled',
+    ],
+    'desktop' => [
+        'product'           => 'NOJ Desktop',
+        'desc'              => 'This contest uses <strong>NOJ Desktop</strong>, a robust cross-platform contest client dedicated for OI/ICPC contests, supporting <i class="MDI windows"></i> Windows, <i class="MDI apple"></i> MacOS and <i class="MDI ubuntu"></i> Ubuntu.',
+        'download'          => 'Download',
+    ],
+    'lengthformatter' => [
+        'seconds'           => '{0} :count Seconds|{1} :count second|[2,*] :count Seconds',
+        'minutes'           => '{0} :count Minutes|{1} :count minute|[2,*] :count Minutes',
+        'hours'             => '{0} :count Hours|{1} :count hour|[2,*] :count Hours',
+    ],
+    'infobar' => [
+        'begin'             => 'Begin Time',
+        'length'            => 'Length',
+        'problems'          => 'Problems',
+        'organizer'         => 'Organizer',
+        'action' => [
+            'login'         => 'Please Login',
+            'review'        => 'Under Review',
+            'manage'        => 'Manage',
+            'registered'    => 'Registered',
+            'forbidden'     => 'No Access',
+            'regist'        => 'Regist',
+            'notstarted'    => 'Not Started Yet',
+            'desktoponly'   => 'Desktop Only',
+            'enter'         => 'Enter',
+        ],
+    ],
+    'inside' => [
+        'topbar' => [
+            'challenge'     => 'Challenge',
+            'rank'          => 'Rank',
+            'status'        => 'Status',
+            'clarification' => 'Clarification',
+            'print'         => 'Print',
+            'analysis'      => 'Analysis',
+            'admin'         => 'Admin',
+        ],
+        'counter' => [
+            'end'         => 'Contest Ended',
+            'run'         => 'Contest is running',
+        ],
+        'challenge' => [
+
+        ],
+        'rank' => [
+            'title'       => 'Rank',
+            'account'     => 'Account',
+            'score'       => 'Score',
+            'penalty'     => 'Penalty',
+            'solved'      => 'Solved',
+        ],
+        'clarification' => [
+            'seemore'     => 'See More',
+            'clarification'   => 'Clarification',
+            'announcement'    => 'Announcement',
+            'request'     => 'Request Clarification',
+            'issue'       => 'Issue Announcement',
+            'action' => [
+                'public'  => 'Public',
+                'reply'   => 'Reply',
+                'close'   => 'Close',
+                'issue'   => 'Issue',
+                'request' => 'Request',
+            ],
+            'field' => [
+                'title'   => 'Title',
+                'content' => 'Content',
+            ],
+        ],
+        'print' => [
+            'disable'     => 'Not Supported',
+        ],
+        'analysis' => [
+            'member'      => 'Member',
+        ],
+        'admin' => [
+            'nav' => [
+                'account'       => 'Account Generate',
+                'announce'      => 'Issue Announcement',
+                'manage'        => 'Contest Management',
+                'pdf'           => 'Generate PDF',
+                'anticheat'     => 'Anti Cheat',
+                'rejudge'       => 'Rejudge',
+                'refreshrank'   => 'Refresh Contest Rank',
+                'download'      => 'Download All Code',
+                'scrollboard'   => 'Scroll Board',
+            ],
+            'account' => [
+                'prefix'        => 'Account Prefix',
+                'count'         => 'Account Count',
+                'generate'      => 'Generate',
+                'download'      => 'Download as xlsx...',
+                'field' => [
+                    'name'      => 'Name',
+                    'account'   => 'Account',
+                    'password'  => 'Password',
+                ],
+            ],
+            'anticheat' => [
+                'run'           => 'Run Code Plagiarism Detection',
+                'rerun'         => 'Rerun',
+                'running'       => 'Running Code Plagiarism Check',
+                'failed'        => 'Plagiarism Check Failed',
+                'download'      => 'Download Code Plagiarism Report',
+                'alert'         => 'Code plagiarism detection currently in background, check status later.',
+                'downloadFile'  => ':name Code Plagiarism',
+            ],
+            'scrollboard' => [
+                'guide' => [
+                    'title'     => 'Quick Guide',
+                    'content'   => '<p>Please press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> for auto scrollboard.</p><p>If you want total control, press <kbd>Enter</kbd> once a single time.</p>',
+                    'no'        => 'close',
+                    'yes'       => 'ok',
+                ],
+                'gold'          => 'Gold Medal',
+                'silver'        => 'Silver Medal',
+                'bronze'        => 'Bronze Medal',
+                'confirm'       => 'confirm',
+                'submits'       => 'submit(s)',
+            ],
+        ],
+    ],
+];
