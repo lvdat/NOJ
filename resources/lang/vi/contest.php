@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'empty'                 => 'Nothing here.',
+    'empty'                 => 'Trống.',
     'featured' => [
         'title'             => 'Featured Contest',
         'action'            => 'Know More',
