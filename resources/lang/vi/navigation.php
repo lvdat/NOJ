@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'home'          => 'Home',
+    'home'          => 'Trang chủ',
     'problem'       => 'Problem',
-    'dojo'          => 'Dojo',
-    'status'        => 'Status',
-    'rank'          => 'Rank',
+    'dojo'          => 'Khóa học',
+    'status'        => 'Submission',
+    'rank'          => 'Xếp hạng',
     'contest'       => 'Contest',
     'group'         => 'Group',
     'search'        => 'Omni Search',
@@ -14,7 +14,7 @@ return [
     'admin'         => 'Admin Portal',
     'pastebin'      => 'PasteBin',
     'imagehosting'  => 'Image Hosting',
-    'systeminfo'    => 'System Info',
+    'systeminfo'    => 'Thông tin hệ thống',
     'report'        => 'Report BUG',
     'logout'        => 'Logout',
     'account'       => 'Account',

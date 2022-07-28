@@ -20,20 +20,19 @@
     <meta charset="UTF-8">
     <title>{{$page_title}} | {{$site_title}}</title>
     <!-- Copyright Information -->
-    <meta name="author" content="">
-    <meta name="organization" content="">
+    <meta name="author" content="{{ env("APP_AUTHOR") }}">
+    <meta name="organization" content="{{ env("APP_ORGANIZATION") }}">
     <meta name="developer" content="">
-    <meta name="version" content="">
-    <meta name="subversion" content="">
+    <meta name="version" content="{{ env("APP_VERSION") }}">
     <!-- SEO Information -->
-    <meta name="keywords" content="NOJ,NJUPT Online Judge,noip,noi,OJ,acm,icpc,onlineJudge,NUPT Online Judge" />
-    <meta name="description" itemprop="description" content="NOJ is yet another Online Judge providing you functions like problem solving, discussing, solutions, groups, contests and ranking system." />
+    <meta name="keywords" content="{{ env("APP_KEYWORDS") }}" />
+    <meta name="description" itemprop="description" content="{{ env("APP_DESC")}}" />
     <!-- Share Title -->
     <meta itemprop="name" content="{{str_replace('"', '\"', "$page_title | $site_title")}}" />
     <!-- Share Image -->
     <meta itemprop="image" content="{{config('app.logo')}}" />
     <!-- Share Description -->
-    <meta itemprop="description" itemprop="description" content="NOJ is yet another Online Judge providing you functions like problem solving, discussing, solutions, groups, contests and ranking system." />
+    <meta itemprop="description" itemprop="description" content="{{ env("APP_DESC")}}" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Necessarily Declarations -->
