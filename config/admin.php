@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'Admin Portal',
+    'name' => env('ADMIN_PANEL_TITLE', 'Admin Dashboard'),
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'Admin Portal',
+    'title' => env('ADMIN_PANEL_TITLE', 'Admin Portal'),
 
     /*
     |--------------------------------------------------------------------------
@@ -308,7 +308,7 @@ return [
     | each page
     |
     */
-    'show_version' => true,
+    'show_version' => env('ADMIN_PANEL_SHOW_VERSION', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -318,7 +318,7 @@ return [
     | Whether to display the environment at the footer of each page
     |
     */
-    'show_environment' => true,
+    'show_environment' => env('ADMIN_PANEL_SHOW_ENV', true),
 
     /*
     |--------------------------------------------------------------------------

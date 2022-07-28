@@ -2,12 +2,12 @@
 
 return [
     "problem"       => "Problem",
-    "account"       => "Account",
-    "result"        => "Verdict",
-    "time"          => "Time",
-    "memory"        => "Memory",
-    "language"      => "Language",
-    "submittime"    => "Submit Time",
+    "account"       => "Tài khoản",
+    "result"        => "Trạng thái",
+    "time"          => "Thời gian",
+    "memory"        => "Bộ nhớ",
+    "language"      => "Ngôn ngữ",
+    "submittime"    => "Thời gian submit",
     "submitdetail"  => "Submission Detail",
     "empty"         => "Nothing matches.",
     "ok"            => "OK",

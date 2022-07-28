@@ -1,19 +1,19 @@
 <?php
 
 return [
-    'messagelist'   => 'Message List',
-    'markAllAsRead' => 'Mark all as read',
-    'eraseRead'     => 'Erase read',
-    'empty'         => 'You have no message.',
+    'messagelist'   => 'Danh sách tin nhắn',
+    'markAllAsRead' => 'Đánh dấu tất cả là đã đọc',
+    'eraseRead'     => 'Xóa các tin nhắn đã đọc',
+    'empty'         => 'Bạn không có tin nhắn mới.',
     'official'      => ':name Official',
     'delimiter'     => ', ',
     'solution' => [
         'accepted' => [
-            'title' => 'Some of your solutions have been accepted',
+            'title' => 'Lời giải của bạn đã được chấp thuật',
             'desc'  => "Hi, Dear **:receiverName**,\n\nYour submitted solutions to the following problems have been accepted: \n\n :problemList\n\nSincerely, :siteName",
         ],
         'declined' => [
-            'title' => 'Some of your solutions have been declined',
+            'title' => 'Lời giải của bạn đã bị từ chối',
             'desc'  => "Hi, Dear **:receiverName**,\n\nYour submitted solutions to the following problems have been declined: \n\n :problemList\n\nSincerely, :siteName",
         ],
     ],

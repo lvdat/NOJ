@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'NOJ'),
-    'displayName' => env("APP_DISPLAY_NAME", "NJUPT Online Judge"),
+    'name' => env('APP_NAME', 'CICTOJ'),
+    'displayName' => env("APP_DISPLAY_NAME", "CICT IT Club Online Judge"),
 
     /*
     |--------------------------------------------------------------------------
@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/Shanghai',
+    'timezone' => env('APP_TIME_ZONE', 'Asia/Ho_Chi_Minh'),
 
     /*
     |--------------------------------------------------------------------------
@@ -168,7 +168,7 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'vi'),
 
     /*
     |--------------------------------------------------------------------------
@@ -181,7 +181,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'vi',
 
     /*
     |--------------------------------------------------------------------------
@@ -194,7 +194,7 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
+    'faker_locale' => 'vi_VN',
 
     /*
     |--------------------------------------------------------------------------

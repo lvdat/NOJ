@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'tips'                  => "That's all we know",
+    'tips'                  => "Đó là tất cả những gì chúng tôi biết",
     'http' => [
         '403' => [
             'type'          => 'Access Forbidden',
-            'description'   => 'Access to this resource on the server is denied!',
+            'description'   => 'Bạn không có quyền truy cập vào mục này!',
         ],
         '404' => [
         'type'              => 'Not Found',
