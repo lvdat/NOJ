@@ -1,8 +1,8 @@
 <?php
 
 return [
-    "slogan"         => ":name is yet another Online Judge",
-    "forgetpassword" => "Forget your password?",
-    "agree"          => "I agree with the",
-    "terms"          => "Terms",
+    "slogan"         => ":name là hệ thống chấm bài tự động dựa trên NOJ",
+    "forgetpassword" => "Quên mật khẩu?",
+    "agree"          => "Tôi đồng ý với",
+    "terms"          => "Điều khoản",
 ];
