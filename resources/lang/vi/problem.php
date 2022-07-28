@@ -9,7 +9,7 @@ return [
     "acratio"          => "Passed / Submission",
     "back"             => "Trở lại",
     "filter"           => "Filter",
-    "empty"            => "Nothing matches your search.",
+    "empty"            => "Tìm kiếm không có kết quả.",
     "timelimit"        => "Giới hạn thời gian",
     "memorylimit"      => "Giới hạn bộ nhớ",
     "download"         => "Download",
