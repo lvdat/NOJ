@@ -1,9 +1,9 @@
 #!/bin/sh
 php artisan down
-supervisorctl stop all
-sudo -u www git pull
+sudo supervisorctl stop all
+git pull
 php artisan migrate
 composer install
-supervisorctl reload
-supervisorctl start all
+sudo supervisorctl reload
+sudo supervisorctl start all
 php artisan up

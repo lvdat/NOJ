@@ -47,8 +47,9 @@ Base on [NOJ Feature](https://github.com/ZsgsDesign/NOJ#supported-feature)
 ### Platform:
 Triển khai trên các hệ thống dưới đây để dễ dàng nhất và tránh gặp các lỗi linh tinh :)
 
-- **Ubuntu 20.04+**
-- **CentOS Linux release 8.0+**
+- Ubuntu **20.04+**
+- CentOS Linux release **8.0+**
+- **Không sử dụng Windows**
 
 ### Môi trường
 Cài đặt trước những thứ sau:
