@@ -4767,10 +4767,10 @@
         },
         {
             "name": "npm-asset/monaco-ace-tokenizer",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/monaco-ace-tokenizer/-/monaco-ace-tokenizer-0.2.1.tgz"
+                "url": "https://registry.npmjs.org/monaco-ace-tokenizer/-/monaco-ace-tokenizer-0.2.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -10957,5 +10957,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
