@@ -4707,10 +4707,13 @@
         },
         {
             "name": "npm-asset/jquery-ui",
-            "version": "1.12.1",
+            "version": "1.13.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.12.1.tgz"
+                "url": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.13.2.tgz"
+            },
+            "require": {
+                "npm-asset/jquery": ">=1.8.0,<4.0.0"
             },
             "type": "npm-asset",
             "license": [
@@ -4719,10 +4722,16 @@
         },
         {
             "name": "npm-asset/lodash",
-            "version": "4.17.21",
+            "version": "4.17.21-patch1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lodash/lodash.git",
+                "reference": "c6e281b878b315c7a10d90f9c2af4cdb112d9625"
+            },
             "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+                "type": "zip",
+                "url": "https://api.github.com/repos/lodash/lodash/zipball/c6e281b878b315c7a10d90f9c2af4cdb112d9625",
+                "reference": "c6e281b878b315c7a10d90f9c2af4cdb112d9625"
             },
             "type": "npm-asset",
             "license": [
@@ -10957,5 +10966,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
