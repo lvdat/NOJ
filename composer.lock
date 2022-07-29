@@ -1289,16 +1289,16 @@
         },
         {
             "name": "fonts-asset/langicon",
-            "version": "1.0.1",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ZsgsDesign/fonts-asset-Langicon.git",
-                "reference": "952cd2a091ce4c2956012de52158ae18ea7fda1a"
+                "reference": "aa9dd2cc11f21b948d09b211906b5883b9899d40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ZsgsDesign/fonts-asset-Langicon/zipball/952cd2a091ce4c2956012de52158ae18ea7fda1a",
-                "reference": "952cd2a091ce4c2956012de52158ae18ea7fda1a",
+                "url": "https://api.github.com/repos/ZsgsDesign/fonts-asset-Langicon/zipball/aa9dd2cc11f21b948d09b211906b5883b9899d40",
+                "reference": "aa9dd2cc11f21b948d09b211906b5883b9899d40",
                 "shasum": ""
             },
             "type": "fonts-asset",
@@ -1315,9 +1315,9 @@
             "description": "Langicon for composer.",
             "support": {
                 "issues": "https://github.com/ZsgsDesign/fonts-asset-Langicon/issues",
-                "source": "https://github.com/ZsgsDesign/fonts-asset-Langicon/tree/1.0.1"
+                "source": "https://github.com/ZsgsDesign/fonts-asset-Langicon/tree/1.0.6"
             },
-            "time": "2021-03-24T06:20:47+00:00"
+            "time": "2022-03-18T10:16:51+00:00"
         },
         {
             "name": "fonts-asset/mdi-wxss",
@@ -10957,5 +10957,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
