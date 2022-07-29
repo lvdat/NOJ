@@ -231,7 +231,7 @@
 
                     <div class="col-md-2 mx-auto">
                         <h5 class="title mb-4 mt-3 font-bold">{{__('footer.developments')}}</h5>
-                        <p class="mb-1"><a href="https://github.com/ZsgsDesign/NOJ">{{__('footer.opensource')}}</a></p>
+                        <p class="mb-1"><a href="https://github.com/lvdat/NOJ">{{__('footer.opensource')}}</a></p>
                         <p class="mb-1"><a href="#">{{__('footer.api')}}</a></p>
                     </div>
 
