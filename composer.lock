@@ -4535,10 +4535,10 @@
         },
         {
             "name": "npm-asset/clipboard",
-            "version": "2.0.8",
+            "version": "2.0.11",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/clipboard/-/clipboard-2.0.8.tgz"
+                "url": "https://registry.npmjs.org/clipboard/-/clipboard-2.0.11.tgz"
             },
             "require": {
                 "npm-asset/good-listener": ">=1.2.2,<2.0.0",
@@ -10957,5 +10957,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
