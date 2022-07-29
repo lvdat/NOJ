@@ -4824,10 +4824,10 @@
         },
         {
             "name": "npm-asset/monaco-ace-tokenizer",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/monaco-ace-tokenizer/-/monaco-ace-tokenizer-0.2.1.tgz"
+                "url": "https://registry.npmjs.org/monaco-ace-tokenizer/-/monaco-ace-tokenizer-0.2.2.tgz"
             },
             "type": "npm-asset",
             "license": [
