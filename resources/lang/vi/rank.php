@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'rank'       => 'Rank',
-    'title'      => 'Title',
-    'solved'     => 'Solved',
-    'community'  => 'Community',
-    'activity'   => 'Activity Coefficient',
+    'rank'       => 'Xếp hạng',
+    'title'      => 'Tựa bài',
+    'solved'     => 'Đã giải',
+    'community'  => 'Cộng đồng',
+    'activity'   => 'Hiệu suất',
 ];

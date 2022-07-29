@@ -9,7 +9,7 @@ return [
     'delimiter'     => ', ',
     'solution' => [
         'accepted' => [
-            'title' => 'Lời giải của bạn đã được chấp thuật',
+            'title' => 'Lời giải của bạn đã được chấp thuận',
             'desc'  => "Hi, Dear **:receiverName**,\n\nYour submitted solutions to the following problems have been accepted: \n\n :problemList\n\nSincerely, :siteName",
         ],
         'declined' => [
