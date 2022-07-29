@@ -4848,10 +4848,10 @@
         },
         {
             "name": "npm-asset/pdfobject",
-            "version": "2.2.3",
+            "version": "2.2.8",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/pdfobject/-/pdfobject-2.2.3.tgz"
+                "url": "https://registry.npmjs.org/pdfobject/-/pdfobject-2.2.8.tgz"
             },
             "type": "npm-asset",
             "license": [
