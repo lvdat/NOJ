@@ -1321,16 +1321,16 @@
         },
         {
             "name": "fonts-asset/mdi-wxss",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ZsgsDesign/fonts-asset-MDI-WXSS.git",
-                "reference": "b6f47677e7b030b77620731fdf257b4fa2e28750"
+                "reference": "9e446e0fa56757f18a46fd3fb33e2bb0c73690fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ZsgsDesign/fonts-asset-MDI-WXSS/zipball/b6f47677e7b030b77620731fdf257b4fa2e28750",
-                "reference": "b6f47677e7b030b77620731fdf257b4fa2e28750",
+                "url": "https://api.github.com/repos/ZsgsDesign/fonts-asset-MDI-WXSS/zipball/9e446e0fa56757f18a46fd3fb33e2bb0c73690fb",
+                "reference": "9e446e0fa56757f18a46fd3fb33e2bb0c73690fb",
                 "shasum": ""
             },
             "type": "fonts-asset",
@@ -1345,7 +1345,11 @@
                 }
             ],
             "description": "MDI-WXSS for composer.",
-            "time": "2020-12-10T16:05:48+00:00"
+            "support": {
+                "issues": "https://github.com/ZsgsDesign/fonts-asset-MDI-WXSS/issues",
+                "source": "https://github.com/ZsgsDesign/fonts-asset-MDI-WXSS/tree/1.0.1"
+            },
+            "time": "2021-08-24T15:11:18+00:00"
         },
         {
             "name": "fonts-asset/montserrat",
@@ -10957,5 +10961,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
