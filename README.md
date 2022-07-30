@@ -1,8 +1,10 @@
-# NOJ  - Automatic Algorithm Test Platform
+# CICT OJ - Hệ thống chấm bài thuật toán tự động
 
-OJ này được fork và chỉnh sửa lại từ NOJ. Chi tiết có thể xem qua repo gốc ở đây: [NOJ](https://github.com/ZsgsDesign/NOJ)
+OJ này được fork và chỉnh sửa lại từ NOJ. Chi tiết có thể xem qua repo gốc ở đây: [NOJ](https://github.com/ZsgsDesign/NOJ). Đây là OJ chính thức của CLB Tin học - khoa CNTT&TT trường ĐH Cần Thơ.
 
-[![Build Status](https://img.shields.io/scrutinizer/build/g/ZsgsDesign/NOJ.svg?style=flat-square)](https://scrutinizer-ci.com/g/ZsgsDesign/NOJ/build-status/master)
+![Scrutinizer build (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/build/g/lvdat/NOJ/master?label=Scrutinizer%20%5Bmaster%5D&logo=scrutinizer&style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/lvdat/NOJ/Test%20Build/master?label=Github%20CI%20%5Bmaster%5D&logo=github&style=flat-square)
+![GitHub Workflow Status (branch2)](https://img.shields.io/github/workflow/status/lvdat/NOJ/Test%20Build/beta?label=Github%20CI%20%5Bbeta%5D&logo=github&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/lvdat/NOJ.svg?style=flat-square)
 
 <details>
