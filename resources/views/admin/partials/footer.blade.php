@@ -14,5 +14,5 @@
 
     </div>
     <!-- Default to the left -->
-    <div><strong>Powered by <a href="https://github.com/ZsgsDesign/NOJ" target="_blank">NOJ Online Judge</a></strong> v{{implode('.', config('version.number'))}} {{config('version.name')}} {{config('version.build')}} </div>
+    <div><strong>Powered by <a href="https://github.com/lvdat/NOJ" target="_blank">NOJ Online Judge</a></strong> v{{implode('.', config('version.number'))}} {{config('version.name')}} {{config('version.build')}} </div>
 </footer>
