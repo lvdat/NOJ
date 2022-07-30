@@ -18,9 +18,9 @@ pre{
         <div id="successful-box" class="d-none">
             <div class="small-box bg-aqua">
                 <div class="inner">
-                    <h3>Finished</h3>
+                    <h3>Hoàn tất</h3>
 
-                    <p>{{$extension}} Operation Successful.</p>
+                    <p>{{$extension}} Đã thực hiện hành động thành công.</p>
                 </div>
                 <div class="icon">
                     <i class="MDI bookmark-check"></i>
