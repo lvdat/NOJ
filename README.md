@@ -69,7 +69,7 @@ Cài đặt trước những thứ sau:
 - NodeJS nên cài đặt bằng nvm.
 - Các hướng dẫn tiếp theo được thực hiện trên Ubuntu 20.04 [amd64] dùng Apache2, các distro khác thực hiện tương tự, riêng trường hợp dùng Windows, Nginx lỗi không support :)
 
-### Cài đặt bổ sung
+### Cài đặt web interface
 - wkhtmltopdf 0.12.6
     ```
     wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb`
@@ -131,7 +131,69 @@ Cài đặt trước những thứ sau:
     sudo apt install php-intl php-gd php-mbstring php-zip php-curl php-mysql php-xml php-dom
     composer install
     ```
-- Để khỏi lăn tăn vụ sửa file và dính lỗi phân quyền, nên tạo một user mới để chạy các tác vụ của server.
+- Để tránh lỗi phân quyền và mò mấy tiếng để fix thì tôi đề xuất đổi user chạy các task của OJ thành current user.
+    Đổi user apache:
+    ```
+    sudo vim /etc/apache2/envvars
+    ```
+    Sửa user và group
+    ```
+    export APACHE_RUN_USER=lvdat
+    export APACHE_RUN_GROUP=lvdat
+    ```
+    Nếu bạn dùng php-fpm thì tự search cách đổi, php thường không cần. Hoặc nếu bạn không thích cách này vẫn có thể chmod theo docs của Laravel.
+- Set up Database
+    ```
+    mysql -u root -p
+    CREATE DATABASE noj CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+    CREATE USER 'noj'@'localhost' IDENTIFIED BY 'nojsobruh';
+    GRANT ALL PRIVILEGES ON noj.* TO 'noj'@'localhost';
+    FLUSH PRIVILEGES;
+    \q
+    ```
+- Tạo file `.env`
+    ```
+    cp .env.example .env
+    vim .env
+    ```
+    Chỉnh sửa thông tin database và base url
+    ```
+    APP_URL=http://127.0.0.1
 
-..
-        
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=noj
+    DB_USERNAME=noj
+    DB_PASSWORD=nojsobruh
+    ```
+- Set key mới
+    ```
+    php artisan key:generate
+    ```
+- Migration
+    ```
+    php artisan migrate
+    ```
+- Install passport (for API Auth Services)
+    ```
+    php artisan passport:install
+    ```
+- CI npm
+    ```
+    npm ci
+    ```
+- Build static
+    ```
+    npm run production
+    ```
+- Add NOJ label
+    ```
+    php artisan babel:install noj
+    ```
+Đã set up xong web interface.
+
+### Cài đặt judge server
+...
+### Sync test case giữa client và judger server
+...
