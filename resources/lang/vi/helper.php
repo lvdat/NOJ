@@ -2,27 +2,27 @@
 
 return [
     'time' => [
-        "after" => "ago",
-        "before" => "from now",
+        "after" => "trước",
+        "before" => "nữa",
         "singular" => [
-            "second" => "second",
-            "minute" => "minute",
-            "hour" => "hour",
-            "day" => "day",
-            "week" => "week",
-            "month" => "month",
-            "year" => "year",
-            "decade" => "decade"
+            "second" => "giây",
+            "minute" => "phút",
+            "hour" => "giờ",
+            "day" => "ngày",
+            "week" => "tuần",
+            "month" => "tháng",
+            "year" => "năm",
+            "decade" => "thập kỷ"
         ],
         "plural" => [
-            "second" => "seconds",
-            "minute" => "minutes",
-            "hour" => "hours",
-            "day" => "days",
-            "week" => "weeks",
-            "month" => "months",
-            "year" => "years",
-            "decade" => "decades"
+            "second" => "giây",
+            "minute" => "phút",
+            "hour" => "giờ",
+            "day" => "ngày",
+            "week" => "tuần",
+            "month" => "tháng",
+            "year" => "tuần",
+            "decade" => "thập kỷ"
         ],
         "formatter" => ":time :unit :tense",
         "malformatter" => "Bad Date",
