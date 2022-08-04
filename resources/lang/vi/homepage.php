@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'welcome'       => 'Welcome to :name!',
-    'version'       => 'Version',
+    'welcome'       => 'Chào mừng đến với :name!',
+    'version'       => 'Phiên bản',
     'announcements' => [
-        'title' => 'Announcements',
-        'empty' => 'Currently no announcements.',
+        'title' => 'Thông báo',
+        'empty' => 'Không có thông báo.',
     ],
-    'babel'         => 'We are now supporting the following Babel Extensions:',
-    'description'   => ':name is an Online Judge, yet have features of Virtual Judges as well as an perspective to hold contests over several OJs without knowing the tests and outcomes dataset to enable multiple possibilities like ICPC team routine training and internal contest holding and so on.',
+    'babel'         => 'Babel Extensions hỗ trợ:',
+    'description'   => ':name là hệ thống Online Judge chính thức của CLB Tin học - khoa Công nghệ thông tin và Truyền thông, trường Đại học Cần Thơ. :name ra đời nhằm xây dựng một môi trường luyện tập, cạnh tranh, đồng thời là nơi tổ chức các cuộc thi về học thuật, training skill,.. dành cho sinh viên.',
 ];

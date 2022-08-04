@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'loading'       => 'Đang tải dữ liệu :name',
+    'loading'       => 'Đang tải dữ liệu',
 ];
