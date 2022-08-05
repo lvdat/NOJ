@@ -237,14 +237,14 @@
 
                     <hr class="clearfix w-100 d-md-none">
 
-                    <div class="col-md-2 mx-auto">
+                    <div class="col-md-3 mx-auto">
                         <h5 class="title mb-4 mt-3 font-bold ">{{__('footer.supports')}}</h5>
                         @include('layouts.components.contact')
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mundb-footer mundb-copyright">&copy; 2018-{{date('Y')}}, {{config("app.name")}}. <a href="https://github.com/ZsgsDesign/NOJ" target="_blank"><i class="MDI github-circle"></i></a></div>
+        <div class="mundb-footer mundb-copyright">&copy; 2018-{{date('Y')}}, {{config("app.name")}}. <a href="https://github.com/lvdat/NOJ" target="_blank"><i class="MDI github-circle"></i></a></div>
     </footer>
     @include('layouts.js')
     @include('layouts.primaryJS')
