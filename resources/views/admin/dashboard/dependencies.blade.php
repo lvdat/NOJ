@@ -1,12 +1,6 @@
 <div class="box box-default">
     <div class="box-header with-border">
-        <h3 class="box-title">{{__('admin.home.dependencies')}}</h3>
-
-        <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-        </div>
+        <h3 class="box-title"><i class="fa fa-cubes"></i> {{__('admin.home.dependencies')}}</h3>
     </div>
 
     <!-- /.box-header -->
@@ -15,8 +9,8 @@
             <table class="table table-striped">
                 @foreach($dependencies as $dependency => $version)
                 <tr>
-                    <td width="240px">{{ $dependency }}</td>
-                    <td><span class="label label-primary">{{ $version }}</span></td>
+                    <td width="280px"><i class="fa fa-cube"></i> {{ $dependency }}</td>
+                    <td><span class="label label-success">{{ $version }}</span></td>
                 </tr>
                 @endforeach
             </table>
@@ -27,5 +21,5 @@
 </div>
 
 <script>
-    $('.dependencies').slimscroll({height:'510px',size:'3px'});
+    $('.dependencies').slimscroll({height:'78vh',size:'3px'});
 </script>

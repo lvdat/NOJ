@@ -6,12 +6,12 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="{{ Admin::user()->avatar }}" class="img-circle" alt="User Image">
+                <img src="{{ Admin::user()->avatar }}" class="img-circle" alt="{{ Admin::user()->name }}" title="{{ Admin::user()->name }}">
             </div>
             <div class="pull-left info">
                 <p>{{ Admin::user()->name }}</p>
                 <!-- Status -->
-                <a href="#"><i class="fa fa-circle text-success"></i> {{ trans('admin.online') }}</a>
+                <a><i class="fa fa-circle text-success"></i> {{ trans('admin.online') }}</a>
             </div>
         </div>
 
