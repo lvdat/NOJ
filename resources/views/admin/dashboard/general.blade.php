@@ -28,13 +28,7 @@ version-badge > inline-div:last-of-type{
 </style>
 <div class="box box-default">
     <div class="box-header with-border">
-        <h3 class="box-title">{{__('admin.home.general')}}</h3>
-
-        <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-        </div>
+        <h3 class="box-title"><i class="fa fa-columns"></i> {{__('admin.home.general')}}</h3>
     </div>
 
     <!-- /.box-header -->
@@ -67,7 +61,7 @@ version-badge > inline-div:last-of-type{
 
                 @foreach($status as $s)
                 <tr>
-                    <td width="120px">{{ $s['name'] }}</td>
+                    <td width="120px"><i class="fa fa-caret-right"></i> {{ $s['name'] }}</td>
                     <td>{{ $s['value'] }}</td>
                 </tr>
                 @endforeach
