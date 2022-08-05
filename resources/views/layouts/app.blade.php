@@ -244,7 +244,7 @@
                 </div>
             </div>
         </div>
-        <div class="mundb-footer mundb-copyright">&copy; 2018-{{date('Y')}}, {{config("app.name")}}. <a href="https://github.com/lvdat/NOJ" target="_blank"><i class="MDI github-circle"></i></a></div>
+        <div class="mundb-footer mundb-copyright">&copy; {{date('Y')}}, {{config("app.name")}}. <a href="https://github.com/lvdat/NOJ" target="_blank"><i class="MDI github-circle"></i></a></div>
     </footer>
     @include('layouts.js')
     @include('layouts.primaryJS')
