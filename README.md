@@ -6,6 +6,8 @@ OJ này được fork và chỉnh sửa lại từ NOJ. Chi tiết có thể xem
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/lvdat/NOJ/Test%20Build/master?label=Github%20CI%20%5Bmaster%5D&logo=github&style=flat-square)
 ![GitHub Workflow Status (branch2)](https://img.shields.io/github/workflow/status/lvdat/NOJ/Test%20Build/beta?label=Github%20CI%20%5Bbeta%5D&logo=github&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/lvdat/NOJ.svg?style=flat-square)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flvdat%2FNOJ.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flvdat%2FNOJ?ref=badge_shield)
+![GitHub release](https://img.shields.io/github/release/zsgsdesign/noj.svg?style=flat-square)
 
 <details>
   <summary>Ngôn ngữ hỗ trợ (15)</summary>
