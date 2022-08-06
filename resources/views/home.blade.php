@@ -21,7 +21,7 @@
     }
 
     .cm-title-section{
-        font-family: 'Raleway';
+        font-family: 'Arial';
     }
 
     .cm-oj{
