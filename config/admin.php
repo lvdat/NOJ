@@ -247,7 +247,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/static/img/avatar/noj.png',
+    'default_avatar' => '/static/img/avatar/cictoj.png',
 
     /*
     |--------------------------------------------------------------------------
