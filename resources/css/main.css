@@ -216,7 +216,7 @@ nav .dropdown-item .MDI{
 }
 .modal-title{
     font-weight: bold;
-    font-family: roboto;
+    font-family: arial;
 }
 .sm-modal td{
     white-space: nowrap;
@@ -441,4 +441,8 @@ html[noj-theme="espresso"] .bg-dark{
 
 html[noj-theme="enigma"] .bg-dark{
     background-color: var(--wemd-blue-grey-darken-3)!important;
+}
+
+html[noj-theme="cictoj"] .bg-dark{
+    background-color: #231f20!important;
 }

@@ -22,7 +22,7 @@
     fresh-container {
         display: block;
         all: initial;
-        font-family: 'Roboto Slab';
+        font-family: 'Arial';
     }
 
     fresh-container h1,
@@ -314,7 +314,7 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
-        font-family: Roboto,Helvetica,Arial,sans-serif;
+        font-family: Arial,Roboto,Helvetica,sans-serif;
         color:rgba(0, 0, 0, 0.93);
         margin:0.25rem 0;
     }
