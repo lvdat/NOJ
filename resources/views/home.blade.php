@@ -58,7 +58,7 @@
 
     timeline-item[data-type^="notice"] > div:last-of-type h5 {
         font-weight: bold;
-        font-family: 'Roboto Slab';
+        font-family: 'Arial';
         margin-bottom: 1rem;
     }
 

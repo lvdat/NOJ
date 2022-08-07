@@ -80,7 +80,7 @@ return [
         'default', 'classic', 'cranberry', 'byzantium',
         'orchids', 'blueberry', 'starrynights', 'electric',
         'oceanic', 'emerald', 'aventurine', 'tropical',
-        'ginger', 'espresso', 'enigma',
+        'ginger', 'espresso', 'enigma', 'cictoj',
     ]) ? env('APP_THEME', 'default') : 'default',
 
     /*

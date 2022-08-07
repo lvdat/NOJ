@@ -4,7 +4,7 @@
     <style>
         term-container{
             display: block;
-            font-family: 'Roboto Slab';
+            font-family: 'Arial';
             line-height: 1.5;
         }
 
