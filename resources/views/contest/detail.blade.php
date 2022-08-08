@@ -118,7 +118,7 @@
     fresh-container {
         display: block;
         all: initial;
-        font-family: 'Roboto Slab';
+        font-family: 'Segoe UI Regular';
     }
 
     fresh-container h1,

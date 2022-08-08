@@ -3,7 +3,7 @@
 @section('template')
 <style>
     h1{
-        font-family: Raleway;
+        font-family: Segoe UI Regular;
         font-weight: 100;
         text-align: center;
     }

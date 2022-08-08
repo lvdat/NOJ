@@ -43,7 +43,7 @@
 
     message-card div:last-of-type h5 {
         font-weight: bold;
-        font-family: 'Roboto Slab';
+        font-family: 'Segoe UI Regular';
         margin-bottom: 1rem;
     }
 

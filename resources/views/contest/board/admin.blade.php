@@ -120,14 +120,14 @@
     file-card p{
         margin:0;
         line-height: 1;
-        font-family: 'Roboto';
+        font-family: 'Segoe UI Regular';
     }
 
     file-card h5{
         margin:0;
         font-size: 1.25rem;
         margin-bottom: .5rem;
-        font-family: 'Roboto';
+        font-family: 'Segoe UI Regular';
         font-weight: 400;
         line-height: 1.2;
     }

@@ -15,7 +15,7 @@ system-info{
 }
 #sys_title,
 #sys_subtitle{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI Regular', Times, serif;
 }
 
 #sys_subtitle > a{

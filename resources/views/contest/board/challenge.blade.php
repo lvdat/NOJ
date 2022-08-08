@@ -85,7 +85,7 @@
     }
 
     .cm-countdown{
-        font-family: 'Roboto Slab';
+        font-family: 'Segoe UI Regular';
         font-size: 3rem;
         text-align: center;
         color: rgba(0, 0, 0, 0.42);

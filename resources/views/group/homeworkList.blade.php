@@ -29,7 +29,7 @@
 
     settings-header>h5{
         font-weight: bold;
-        font-family: 'Roboto';
+        font-family: 'Segoe UI Regular';
         margin-bottom: 0;
         line-height: 1.5;
     }

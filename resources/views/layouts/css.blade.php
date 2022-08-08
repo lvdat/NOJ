@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/static/fonts/mdi-wxss/MDI.css?version=1.0.1">
+<link rel="stylesheet" href="/static/fonts/segoe/segoe.css?version=1.0.0">
 <link rel="stylesheet" href="/static/fonts/roboto/roboto.css?version=1.0.0">
 <link rel="stylesheet" href="/static/fonts/raleway/raleway.css?version=1.0.0">
 <link rel="stylesheet" href="/static/fonts/montserrat/montserrat.css?version=1.0.0">
