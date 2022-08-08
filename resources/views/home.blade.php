@@ -21,7 +21,7 @@
     }
 
     .cm-title-section{
-        font-family: 'Arial';
+        font-family: 'Segoe UI Regular';
     }
 
     .cm-oj{
@@ -58,7 +58,7 @@
 
     timeline-item[data-type^="notice"] > div:last-of-type h5 {
         font-weight: bold;
-        font-family: 'Arial';
+        font-family: 'Segoe UI Regular';
         margin-bottom: 1rem;
     }
 

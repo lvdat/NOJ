@@ -83,7 +83,7 @@
     }
     .dojo-phase{
         font-size:1.5rem;
-        font-family: 'Roboto Slab';
+        font-family: 'Segoe UI Regular';
         font-weight: 900;
     }
     .dojo-phase span{

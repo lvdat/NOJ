@@ -83,7 +83,7 @@ if (mix.inProduction()) {
 }
 
 mix.disableNotifications();
-
+mix.copy('resources/fonts/segoe', 'public/static/fonts/segoe'); // copy file segoe Font to fonts folder before mix
 mix.options({
     postCss: [
         require('autoprefixer')

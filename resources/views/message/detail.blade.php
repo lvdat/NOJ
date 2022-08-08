@@ -33,7 +33,7 @@
 
     h5.msg-title {
         font-weight: bold;
-        font-family: 'Roboto Slab';
+        font-family: 'Segoe UI Regular';
         margin-bottom: 1rem;
         color: #000;
     }
