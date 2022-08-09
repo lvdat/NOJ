@@ -2,6 +2,8 @@
 
 ![CICTOJ Banner](cictoj_banner.png)
 
+**[DEPRECATED]** - Hiện project sẽ dừng phát triển và chuyển sang sử dụng VNOJ. Xem repo [ở đây](https://github.com/lvdat/OJ)
+
 OJ này được fork và chỉnh sửa lại từ NOJ. Chi tiết có thể xem qua repo gốc ở đây: [NOJ](https://github.com/ZsgsDesign/NOJ). Đây là OJ chính thức của CLB Tin học - khoa CNTT&TT trường ĐH Cần Thơ.
 
 ![Scrutinizer build (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/build/g/lvdat/NOJ/master?label=Scrutinizer%20%5Bmaster%5D&logo=scrutinizer&style=flat-square)
