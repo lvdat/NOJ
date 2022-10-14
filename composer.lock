@@ -5617,10 +5617,10 @@
         },
         {
             "name": "npm-asset/mathjax",
-            "version": "2.7.9",
+            "version": "3.2.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/mathjax/-/mathjax-2.7.9.tgz"
+                "url": "https://registry.npmjs.org/mathjax/-/mathjax-3.2.2.tgz"
             },
             "type": "npm-asset",
             "license": [
